@@ -1,0 +1,102 @@
+digraph G{
+"element 0x556afa793280
+previous (nil)
+value Upper?
+header 0x556afa792e50
+left 0x556afa7932d0
+right 0x556afa793640"->"element 0x556afa7932d0
+previous (nil)
+value pogromist?
+header 0x556afa792e50
+left 0x556afa793320
+right 0x556afa793550""element 0x556afa7932d0
+previous (nil)
+value pogromist?
+header 0x556afa792e50
+left 0x556afa793320
+right 0x556afa793550"->"element 0x556afa793320
+previous (nil)
+value 2000?
+header 0x556afa792e50
+left 0x556afa793370
+right 0x556afa793460""element 0x556afa793320
+previous (nil)
+value 2000?
+header 0x556afa792e50
+left 0x556afa793370
+right 0x556afa793460"->"element 0x556afa793370
+previous (nil)
+value Philya
+header 0x556afa792e50
+left (nil)
+right (nil)""element 0x556afa793320
+previous (nil)
+value 2000?
+header 0x556afa792e50
+left 0x556afa793370
+right 0x556afa793460"->"element 0x556afa793460
+previous (nil)
+value Slava
+header 0x556afa792e50
+left (nil)
+right (nil)""element 0x556afa7932d0
+previous (nil)
+value pogromist?
+header 0x556afa792e50
+left 0x556afa793320
+right 0x556afa793550"->"element 0x556afa793550
+previous (nil)
+value Fedya
+header 0x556afa792e50
+left (nil)
+right (nil)""element 0x556afa793280
+previous (nil)
+value Upper?
+header 0x556afa792e50
+left 0x556afa7932d0
+right 0x556afa793640"->"element 0x556afa793640
+previous (nil)
+value fierce?
+header 0x556afa792e50
+left 0x556afa793690
+right 0x556afa793780""element 0x556afa793640
+previous (nil)
+value fierce?
+header 0x556afa792e50
+left 0x556afa793690
+right 0x556afa793780"->"element 0x556afa793690
+previous (nil)
+value Beck
+header 0x556afa792e50
+left (nil)
+right (nil)""element 0x556afa793640
+previous (nil)
+value fierce?
+header 0x556afa792e50
+left 0x556afa793690
+right 0x556afa793780"->"element 0x556afa793780
+previous (nil)
+value Discranist?
+header 0x556afa792e50
+left 0x556afa7937d0
+right 0x556afa7938c0""element 0x556afa793780
+previous (nil)
+value Discranist?
+header 0x556afa792e50
+left 0x556afa7937d0
+right 0x556afa7938c0"->"element 0x556afa7937d0
+previous (nil)
+value Burtsev
+header 0x556afa792e50
+left (nil)
+right (nil)""element 0x556afa793780
+previous (nil)
+value Discranist?
+header 0x556afa792e50
+left 0x556afa7937d0
+right 0x556afa7938c0"->"element 0x556afa7938c0
+previous (nil)
+value George
+header 0x556afa792e50
+left (nil)
+right (nil)"}
