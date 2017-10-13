@@ -9,7 +9,7 @@
 #include <new>
 
 
-#define DEBUG 10
+#define NDEBUG 10
 
 #ifdef DEBUG
 #define Gde printf("Line %d, Function %s\n", __LINE__, __PRETTY_FUNCTION__)
@@ -39,19 +39,19 @@ Gde;
 const int MAX_LINES = 10;
 FILE * super_tree_dump = fopen("dump.gv", "w");
 
-typedef struct elem{
+typedef struct elem_{
     char * value = NULL;
-    struct elem * right = NULL;
-    struct elem * left = NULL;
-    struct elem * previous = NULL;
-    struct tree_header * header = NULL;
-};
+    struct elem_ * right = NULL;
+    struct elem_ * left = NULL;
+    struct elem_ * previous = NULL;
+    struct tree_header_ * header = NULL;
+} elem;
 
 
-typedef struct tree_header{
+typedef struct tree_header_{
     elem * first = NULL;
     int count = 0;
-};
+} tree_header;
 
 tree_header * Tree_Ctor(void);
 int Tree_Dtor(tree_header * header1);
@@ -75,6 +75,8 @@ elem * Define_Me(const tree_header * header);
 elem * Mini_Define(elem * element);
 elem * Add_Person(elem * element);
 
+int Deep_Search(elem * element);
+
 
 
 
@@ -96,13 +98,12 @@ int main() {
     printf("\nTree construct process have just finished successfully\n\n");
     Tree_Dump(header);
 
+    Deep_Search(header->first);
 
 
     Define_Me(header);
 
     Tree_To_File(header);
-
-
 
     Tree_Dtor(header);
 
@@ -115,3 +116,4 @@ int main() {
 #include "Tree_Functions.h"
 #include "Akinator_Functions.h"
 #include "my_functions.h"
+

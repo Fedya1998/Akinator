@@ -30,7 +30,7 @@ void Delete_Element(elem *element) {
     if (element->right) Delete_Element(element->right);
     if (element->left) Delete_Element(element->left);
     if (element->value) free(element->value);
-    printf("Deleting elem\n");
+    //printf("Deleting elem\n");
     delete element;
 }
 
@@ -148,3 +148,16 @@ elem * Add_Right(elem * element) {
     return element->right;
 }
 
+
+int Deep_Search(elem *element) {
+    SUPER_NOT_OK_DUMP(Elem);
+    if (element->left) {
+        Deep_Search(element->left);
+    }
+    if (element->right) {
+        Deep_Search(element->right);
+    }
+    printf("elem value %s\n", element->value);
+
+    return EXIT_SUCCESS;
+}
